@@ -9,16 +9,18 @@ Time spent: **10** hours spent in total
     - Tested in version: 1.1
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+      <img src="xxs walkthrough.gif" width="800">
   - [ ] Steps to recreate: first type the script exploit into the comments section. View the page and hover over the comment.
-  - [ ] Affected source code:  <a href="" onmouseover='alert("XXS")'>test link</a>
+  - [ ] Affected source code:  "<a href="" onmouseover='alert("XXS")'>test link</a>"
  2.
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 1.1
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+    <img src="xxs walkthrough2.gif" width="800">
   - [ ] Steps to recreate: go to a page with a link... modify the source code to include an XSS alert.
-  - [ ] Affected source code: onclick='alert("XXS")'
+  - [ ] Affected source code: "onclick='alert("XXS")'"
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 3. 
   - [ ] Summary: 
@@ -26,6 +28,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 1.1
     - Fixed in version: 4.___
   - [ ] GIF Walkthrough: 
+  <img src="IDOR.gif" width="800">
   - [ ] Steps to recreate: Create 2 pages, navigate to second page by changing a number in the URL
   - [ ] Affected source code: N/A
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
