@@ -9,7 +9,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 1.1
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
-      <img src="https://github.com/Mackpiano96/Week-7-Project-WordPress-vs.-Kali/blob/master/xxs%20walkthrough.gif" width="800">
+      <img src="https://github.com/Mackpiano96/Week-7-Project-WordPress-vs.-Kali/blob/master/xxs%20recording.gif" width="800">
   - [ ] Steps to recreate: first type the script exploit into the comments section. View the page and hover over the comment.
   - [ ] Affected source code:  "<a href="" onmouseover='alert("XXS")'>test link</a>"
  2.
